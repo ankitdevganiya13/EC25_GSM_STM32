@@ -1,0 +1,1 @@
+stm32f072vbt6_ec25_gsm_mqtt\startup_stm32f072xb.o: startup_stm32f072xb.s

@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"stm32f072vbt6_ec25_gsm_mqtt\startup_stm32f072xb.o"
+"stm32f072vbt6_ec25_gsm_mqtt\main.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_it.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_msp.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_tim.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_tim_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_uart.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_uart_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_rcc.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_rcc_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_i2c.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_i2c_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_gpio.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_dma.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_cortex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_pwr.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_pwr_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_flash.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_flash_ex.o"
+"stm32f072vbt6_ec25_gsm_mqtt\stm32f0xx_hal_exti.o"
+"stm32f072vbt6_ec25_gsm_mqtt\system_stm32f0xx.o"
+--strict --scatter "STM32F072VBT6_EC25_GSM_MQTT\STM32F072VBT6_EC25_GSM_MQTT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F072VBT6_EC25_GSM_MQTT.map" -o STM32F072VBT6_EC25_GSM_MQTT\STM32F072VBT6_EC25_GSM_MQTT.axf
